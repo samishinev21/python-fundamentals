@@ -1,4 +1,3 @@
-
 number = float(input())
 
 if number == 0:
