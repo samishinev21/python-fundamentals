@@ -8,4 +8,5 @@ for _ in range(number_of_orders):
     order_price = price_per_capsule * days * capsules_needed_per_day
     total_price += order_price
     print("The price for the coffee is: $%.2f" % order_price)
+    
 print("Total: $%.2f" % total_price)   
