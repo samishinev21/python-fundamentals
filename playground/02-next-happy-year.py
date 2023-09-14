@@ -1,6 +1,5 @@
 year = int(input())
 
-
 while True:
     yearstr = str(year)
 
