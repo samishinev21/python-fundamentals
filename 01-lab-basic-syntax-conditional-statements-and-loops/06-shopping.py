@@ -9,4 +9,4 @@ while command != "End":
         break
     command = input()
 else:
-    print("You bought evrything you need.")
+    print("You bought everything needed.")
