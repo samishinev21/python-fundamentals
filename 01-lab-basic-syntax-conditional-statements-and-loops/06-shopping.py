@@ -2,7 +2,7 @@ budget = int(input())
 command = input()
 
 while command != "End":
-    price_products = int(input())
+    price_products = int(command)
     budget -= price_products
     if budget < 0:
         print("You went in overdraft!")

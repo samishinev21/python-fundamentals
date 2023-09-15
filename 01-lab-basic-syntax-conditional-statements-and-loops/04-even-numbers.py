@@ -6,4 +6,4 @@ for l in range(lines):
         print(f"{num} is odd!")
         break
 else:
-    print("All numbers are even!")
+    print("All numbers are even.")
