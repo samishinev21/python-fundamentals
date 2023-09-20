@@ -7,6 +7,7 @@ for _ in range(number_of_orders):
     capsules_needed_per_day = int(input())
     order_price = price_per_capsule * days * capsules_needed_per_day
     total_price += order_price
-    print("The price for the coffee is: $%.2f" % order_price)
+    if order_price > 0:
+        print("The price for the coffee is: $%.2f" % order_price)
     
 print("Total: $%.2f" % total_price)   

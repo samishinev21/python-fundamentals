@@ -1,5 +1,4 @@
 pounds = float(input())
-print(pounds)
 
 dollars = pounds * 1.31
  
