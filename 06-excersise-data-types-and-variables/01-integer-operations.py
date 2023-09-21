@@ -8,4 +8,3 @@ number = number // number_2
 number = number * number_3
 
 print(number)
-
