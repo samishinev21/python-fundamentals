@@ -2,7 +2,6 @@ numbers_str = input()
 text = input()
 letters = []
 
-
 numbers = numbers_str.split(" ")
 
 for group_num in numbers:
