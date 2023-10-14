@@ -3,7 +3,7 @@ n = int(input())
 
 def repeat(string, times):
     result = []
-    for time in range(times):
+    for _ in range(times):
         result.append(string)
 
     return "".join(result)
