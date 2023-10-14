@@ -12,6 +12,6 @@ def calculate(order, quantity):
     elif order == "snacks":
         item_price = 2.00
     
-    return item_price * quantity
+    return f"{(item_price * quantity):.2f}"
 
 print(calculate(order, quantity))
