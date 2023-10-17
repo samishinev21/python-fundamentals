@@ -6,6 +6,7 @@ def is_even(num):
     
 nums = input()
 digits = nums.split(" ")
-result = list(filter(is_even, digits))
+result_str = list(filter(is_even, digits))
+result = list(map(int, result_str))
 
 print(result)
