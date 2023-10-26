@@ -9,9 +9,3 @@ comment = Comment("user1", "I like the book")
 print(comment.username)
 print(comment.content)
 print(comment.likes)
-
-comment.likes += 1
-
-print(comment.username)
-print(comment.content)
-print(comment.likes)
