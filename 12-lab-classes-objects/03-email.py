@@ -23,7 +23,6 @@ while True:
 
     tokens = command.split(" ")
 
-
     sender = tokens[0]
     receiver = tokens[1]
     content = tokens[2]
