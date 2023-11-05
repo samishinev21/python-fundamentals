@@ -9,7 +9,7 @@ class Inventory:
         if Inventory.__capacity > len(Inventory.items):
             Inventory.items.append(item)
         else:
-            return "Not enough room in the inventory"
+            return "not enough room in the inventory"
     
     def get_capacity(self):
         return Inventory.__capacity
