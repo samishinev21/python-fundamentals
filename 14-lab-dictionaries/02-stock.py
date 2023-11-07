@@ -12,6 +12,6 @@ for product in order:
     items_in_stock = stock.get(product)
     
     if items_in_stock:
-        print(f"We have {items_in_stock} of cheese left")
+        print(f"We have {items_in_stock} of {product} left")
     else:
         print(f"Sorry, we don't have {product}")
