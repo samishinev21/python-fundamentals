@@ -11,8 +11,6 @@ while command != "statistics":
     else:
         stock[key] = int(value)
 
-    print(stock)
-
     command = input()
 
 print("Products in stock:")
