@@ -15,7 +15,7 @@ while command != "programming_basics" and command != "fundamentals" and command 
     
     command = input()
 
-students_in_course = courses[command]
+    students_in_course = courses[command]
 
-for student in students_in_course:
-    print(student)
+    for student in students_in_course:
+        print(student)
