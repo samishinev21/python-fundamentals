@@ -10,7 +10,5 @@ for n in range(num_words):
     else:
         synonyms[word] = [synonym]
 
-print(synonyms)
-
 for (word, words) in synonyms.items():
     print(f"{word} - {', '.join(words)}")
