@@ -32,7 +32,7 @@ print(f"shards: {materials['shards']}")
 print(f"fragments: {materials['fragments']}")
 print(f"motes: {materials['motes']}")
 
-for (material, quantity) in sorted(materials.items()):
+for (material, quantity) in materials.items():
     if material == "shards" or material == "fragments" or material == "motes":
         continue
     else:
