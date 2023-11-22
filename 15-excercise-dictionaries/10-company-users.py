@@ -17,5 +17,5 @@ while True:
 
 for (name, identifications) in companies.items():
      print(name)
-     for identification in set(identifications):
-         print(f"--{identification}")
+     for identification in sorted(set(identifications)):
+         print(f"-- {identification}")
