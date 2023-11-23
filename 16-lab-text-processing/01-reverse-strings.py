@@ -1,5 +1,3 @@
-result = ""
-
 while True:
     result = ""
     str1 = input()
